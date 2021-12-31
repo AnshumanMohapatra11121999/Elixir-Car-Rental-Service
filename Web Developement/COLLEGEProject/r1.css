@@ -1,0 +1,121 @@
+*{
+    box-sizing: content-box;
+    
+    
+    }
+    header{
+        text-align: center;
+        
+        padding: 30px;
+        color:green;
+        background:rgb(181, 199, 233);
+        
+    }
+   
+    nav{
+
+        overflow: hidden;
+        background: black;
+        line-height: 20px;
+    }
+    nav a{
+        
+        float: right;
+        display: block;
+        text-align: center;
+        padding: 18px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        color:tomato;
+}
+
+    nav a:hover{
+
+        background: cyan;
+        color:darkblue
+    }
+    nav input[type=search]{
+
+        float: right;
+        display: block;
+        padding: 10px 10px;
+        
+        font-size: 16px;
+        font-weight: 700;
+        color:tomato;
+        
+    }
+    nav input[type=button]{
+
+        float: right;
+        display: block;
+        padding: 10px 10px;
+        
+        font-size: 16px;
+        font-weight: 700;
+        color:tomato;
+        
+    }
+    .xter{
+
+        background-color: black;
+        color:greenyellow;
+        padding: 30px;
+        line-height: 20px;
+    }
+    input[type=date]{
+        background-color: aquamarine;
+        color: red;
+    }
+    input[type=time]{
+        background-color: aquamarine;
+        color: red;
+    }
+    fieldset{
+
+        background-color: black;
+        color:greenyellow;
+    }
+    input[type=radio]{
+        background-color:aquamarine;
+        color: red;
+    }
+    
+    #xy{
+        background-color:aquamarine;
+    }
+    input[type=button]{
+        background-color: green;
+        color: orange;
+    }
+    input[type=button]:hover{
+
+        background: cyan;
+        color:darkblue
+    }
+    #x2{
+        align-items:flex-end;
+    }
+    #x3{
+        height: 30px;
+        width: 70px;
+    }
+body
+{       
+     margin: 0%;
+    
+}
+.y{
+    color:tomato;
+}
+footer{
+    background-color: black;
+    padding: 40px 20px;
+}
+
+footer a:hover{
+   
+    color:blue;
+}
+

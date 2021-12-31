@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:darkmagenta;
+            margin: 0%;
+        }
+       
+        input[type=reset]{
+            color: darkorange;
+            background-color:forestgreen;
+            height: 30px;
+            width: 100px;
+        }
+        
+        input[type=button]{
+            color: darkorange;
+            background-color:forestgreen;
+            height: 30px;
+            width: 100px;
+    
+        }
+        input[type=reset]:hover{
+            background: cyan;
+        color:darkblue
+        }
+      
+        input[type=button]:hover{
+            background: cyan;
+        color:darkblue
+        }
+        h1{
+    overflow: hidden;
+    background: black;
+    line-height: 40px;
+    color:tomato;
+    text-align: center;
+    margin: 0%;
+    border: 0ch;
+          }
+        legend{
+              color:goldenrod;
+          }
+          fieldset{
+              background-color: black;
+              color: tomato;
+          }
+
+    </style>
+</head>
+<body>
+    <h1>LOG IN</h1>
+    <fieldset style="margin: 0%;">
+       <legend><h2>LOG IN</h2></legend>
+
+    <form  method="POST">
+
+        Username: <br>
+        <input type="text" name="Username" style="background-color: aqua;" placeholder="YOUR USER NAME" ><br><br>
+        Password: <br>
+        <input type="password" style="background-color: aqua;" name="PassWord"  >
+        <br>
+        <br>
+        <input type="button"  value="Sign In" >&nbsp;&nbsp;&nbsp;
+        <input type="reset"  value="Reset" >&nbsp;&nbsp;&nbsp;
+        
+    </form>
+   </fieldset>
+</body>
+</html>
